@@ -1,0 +1,81 @@
+//Program of Inheritence
+/*#include<iostream>
+using namespace std;
+class vehicle
+{
+    public:
+        string brand="Ford";
+        void honk()
+        {
+            cout << "Tutt Tutt \n";
+        }
+};
+
+class car : public vehicle
+{
+    public:
+        string model="Mustang";
+};
+
+int main()
+{
+    car myobj;
+    myobj.honk();
+    cout<<myobj.brand + " " + myobj.model;
+    return 0;
+}*/
+
+//=====================================================
+
+//Program of multi-level inheritence
+/*#include<iostream>
+using namespace std;
+class parent{
+    public:
+        void myfun(){
+            cout << "Hello World";
+        }
+};
+class child : public parent{
+    public:
+};
+class grandchild : public child{
+    public:
+};
+int main()
+{
+    grandchild myobj;
+    myobj.myfun();
+    return 0;
+}*/
+
+//=========================================
+
+//Program of Multiple Inheritence
+/*#include<iostream>
+using namespace std;
+class a{
+    public:
+        void myfun(){
+            cout << "Hello ";
+        }
+};
+class b{
+    public:
+        void otherfun(){
+            cout << "World";
+        }
+};
+class c : public a,public b{
+    public:
+};
+
+int main()
+{
+    c myobj;
+    myobj.myfun();
+    myobj.otherfun();
+    return 0;
+}*/
+
+//======================================================
